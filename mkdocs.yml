@@ -121,7 +121,18 @@ nav:
       - 43. 성능 튜닝: 43-performance-tuning.md
       - 44. 보안: 44-security.md
       - 45. CI/CD와 배포: 45-cicd-deploy.md
-  - 캡스톤 (LEVEL 9):
+  - 개발자 CS 종합 (LEVEL 9):
+      - 58. CS 핵심 총정리: 58-cs-core.md
+      - 59. 네트워크와 웹 프로토콜: 59-networking-web-protocols.md
+      - 60. 백엔드 엔지니어링: 60-backend-engineering.md
+      - 61. 프론트엔드 엔지니어링: 61-frontend-engineering.md
+      - 62. 데이터베이스와 저장소: 62-data-storage.md
+      - 63. 리눅스와 런타임 운영: 63-linux-runtime.md
+      - 64. 인프라와 클라우드: 64-infra-cloud.md
+      - 65. DevOps와 SRE: 65-devops-sre.md
+      - 66. 보안 엔지니어링: 66-security-engineering.md
+      - 67. 시스템 설계와 아키텍처: 67-architecture-design.md
+  - 캡스톤 (LEVEL 10):
       - 46. 미니 증권 시스템: 46-capstone-project.md
       - 47. 마스터 체크리스트: 47-mastery-checklist.md
   - 예제 코드: examples.md
