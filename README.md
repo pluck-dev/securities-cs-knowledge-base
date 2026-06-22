@@ -30,7 +30,7 @@
 | 08 | [아키텍처](docs/08-architecture.md) | 주문/체결 시스템 전체 구조 |
 | 09 | [용어집](docs/09-glossary.md) | 개발자용 증권 용어 사전 |
 
-### 개발자 CS 종합편
+### 개발자 CS 종합편 (58~105)
 
 | 순서 | 문서 | 내용 |
 |------|------|------|
@@ -68,6 +68,20 @@
 | 89 | [제품 분석과 실험 플랫폼](docs/89-product-analytics-experimentation.md) | event/funnel/cohort/A-B test/feature flag |
 | 90 | [DDD와 모듈러 아키텍처](docs/90-ddd-modular-architecture.md) | bounded context/aggregate/domain event/hexagonal |
 | 91 | [공급망 보안과 릴리즈 엔지니어링](docs/91-supply-chain-release-engineering.md) | SBOM/SLSA/CI 보안/artifact/release |
+| 92 | [실무 암호학](docs/92-applied-cryptography.md) | hash/password hash/AEAD/KMS/key rotation |
+| 93 | [위협 모델링과 보안 설계](docs/93-threat-modeling-secure-design.md) | STRIDE/trust boundary/attack tree/security review |
+| 94 | [접근성과 포용적 디자인 심화](docs/94-accessibility-inclusive-design.md) | WCAG/keyboard/screen reader/form accessibility |
+| 95 | [국제화, 현지화, 시간·숫자 처리](docs/95-internationalization-localization.md) | i18n/l10n/timezone/currency/Unicode |
+| 96 | [플랫폼 엔지니어링과 개발자 경험](docs/96-platform-engineering-devex.md) | IDP/golden path/service catalog/dev productivity |
+| 97 | [모노레포와 대규모 저장소 관리](docs/97-monorepo-large-repo-management.md) | monorepo/build cache/CODEOWNERS/dependency graph |
+| 98 | [설정 관리와 Feature Flag](docs/98-configuration-feature-flags.md) | runtime config/secret/feature flag/kill switch |
+| 99 | [카오스와 복원력 엔지니어링](docs/99-chaos-resilience-engineering.md) | chaos/game day/resilience pattern/blast radius |
+| 100 | [용량 계획과 FinOps](docs/100-capacity-planning-finops.md) | capacity/headroom/unit cost/cloud cost |
+| 101 | [레거시 현대화와 마이그레이션](docs/101-legacy-modernization-migration.md) | strangler/data migration/compatibility/cutover |
+| 102 | [엔터프라이즈 연동 패턴](docs/102-enterprise-integration-patterns.md) | batch/file/SFTP/ESB/anti-corruption layer |
+| 103 | [문서화와 지식 관리](docs/103-documentation-knowledge-management.md) | ADR/runbook/onboarding/troubleshooting/postmortem |
+| 104 | [클린 코드와 유지보수성 심화](docs/104-clean-code-maintainability.md) | naming/error handling/refactoring/abstraction |
+| 105 | [Edge와 Serverless 아키텍처](docs/105-edge-serverless-architecture.md) | serverless/edge/cold start/stateless/cost |
 
 ### 심화편 (실무에서 진짜 골치 아픈 것들)
 

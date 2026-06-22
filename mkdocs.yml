@@ -156,6 +156,20 @@ nav:
       - 89. 제품 분석과 실험 플랫폼: 89-product-analytics-experimentation.md
       - 90. DDD와 모듈러 아키텍처: 90-ddd-modular-architecture.md
       - 91. 공급망 보안과 릴리즈 엔지니어링: 91-supply-chain-release-engineering.md
+      - 92. 실무 암호학: 92-applied-cryptography.md
+      - 93. 위협 모델링과 보안 설계: 93-threat-modeling-secure-design.md
+      - 94. 접근성과 포용적 디자인 심화: 94-accessibility-inclusive-design.md
+      - 95. 국제화, 현지화, 시간·숫자 처리: 95-internationalization-localization.md
+      - 96. 플랫폼 엔지니어링과 개발자 경험: 96-platform-engineering-devex.md
+      - 97. 모노레포와 대규모 저장소 관리: 97-monorepo-large-repo-management.md
+      - 98. 설정 관리와 Feature Flag: 98-configuration-feature-flags.md
+      - 99. 카오스와 복원력 엔지니어링: 99-chaos-resilience-engineering.md
+      - 100. 용량 계획과 FinOps: 100-capacity-planning-finops.md
+      - 101. 레거시 현대화와 마이그레이션: 101-legacy-modernization-migration.md
+      - 102. 엔터프라이즈 연동 패턴: 102-enterprise-integration-patterns.md
+      - 103. 문서화와 지식 관리: 103-documentation-knowledge-management.md
+      - 104. 클린 코드와 유지보수성 심화: 104-clean-code-maintainability.md
+      - 105. Edge와 Serverless 아키텍처: 105-edge-serverless-architecture.md
   - 캡스톤 (LEVEL 10):
       - 46. 미니 증권 시스템: 46-capstone-project.md
       - 47. 마스터 체크리스트: 47-mastery-checklist.md
