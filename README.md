@@ -54,6 +54,20 @@
 | 75 | [데이터 엔지니어링과 분석](docs/75-data-engineering-analytics.md) | OLTP/OLAP, 이벤트, ETL/ELT, 데이터 품질 |
 | 76 | [디버깅과 트러블슈팅](docs/76-debugging-troubleshooting.md) | 로그, 메트릭, 트레이스, 장애 축소 방법론 |
 | 77 | [협업과 유지보수](docs/77-engineering-collaboration.md) | 요구사항, 설계문서, Git, 리뷰, 리팩터링 |
+| 78 | [개발자 CS 커버리지 감사표](docs/78-developer-cs-coverage-audit.md) | 커버리지 감사/빠진 영역/반복 검증 |
+| 79 | [컴파일러와 빌드 시스템 내부](docs/79-compiler-build-systems.md) | 컴파일 파이프라인/타입 검사/의존성/CI |
+| 80 | [분산 합의와 복제](docs/80-distributed-consensus-replication.md) | Raft/quorum/replication/failover/split brain |
+| 81 | [저장 엔진 내부 구조](docs/81-storage-engine-internals.md) | B-Tree/LSM/WAL/MVCC/buffer pool |
+| 82 | [관측성 심화와 OpenTelemetry](docs/82-observability-deep.md) | logs/metrics/traces/OpenTelemetry/SLO 알림 |
+| 83 | [브라우저와 JavaScript 엔진 내부](docs/83-browser-js-engine-internals.md) | 브라우저 프로세스/V8/event loop/GC |
+| 84 | [모바일과 네이티브 클라이언트 기본](docs/84-mobile-native-engineering.md) | Android/iOS/lifecycle/offline/push/mobile security |
+| 85 | [AI/ML 엔지니어링 기본](docs/85-ai-ml-engineering.md) | training/inference/RAG/LLM ops/evaluation |
+| 86 | [검색, 추천, 벡터 데이터베이스](docs/86-search-recommendation-vector.md) | 역색인/ranking/recommendation/vector search |
+| 87 | [실시간 협업 시스템](docs/87-realtime-collaboration-systems.md) | WebSocket/SSE/CRDT/OT/fan-out |
+| 88 | [개인정보, 규제, 데이터 거버넌스](docs/88-privacy-compliance-governance.md) | 개인정보/보관/파기/접근감사/거버넌스 |
+| 89 | [제품 분석과 실험 플랫폼](docs/89-product-analytics-experimentation.md) | event/funnel/cohort/A-B test/feature flag |
+| 90 | [DDD와 모듈러 아키텍처](docs/90-ddd-modular-architecture.md) | bounded context/aggregate/domain event/hexagonal |
+| 91 | [공급망 보안과 릴리즈 엔지니어링](docs/91-supply-chain-release-engineering.md) | SBOM/SLSA/CI 보안/artifact/release |
 
 ### 심화편 (실무에서 진짜 골치 아픈 것들)
 

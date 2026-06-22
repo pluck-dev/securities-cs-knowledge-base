@@ -142,6 +142,20 @@ nav:
       - 75. 데이터 엔지니어링과 분석: 75-data-engineering-analytics.md
       - 76. 디버깅과 트러블슈팅: 76-debugging-troubleshooting.md
       - 77. 협업과 유지보수: 77-engineering-collaboration.md
+      - 78. 개발자 CS 커버리지 감사표: 78-developer-cs-coverage-audit.md
+      - 79. 컴파일러와 빌드 시스템 내부: 79-compiler-build-systems.md
+      - 80. 분산 합의와 복제: 80-distributed-consensus-replication.md
+      - 81. 저장 엔진 내부 구조: 81-storage-engine-internals.md
+      - 82. 관측성 심화와 OpenTelemetry: 82-observability-deep.md
+      - 83. 브라우저와 JavaScript 엔진 내부: 83-browser-js-engine-internals.md
+      - 84. 모바일과 네이티브 클라이언트 기본: 84-mobile-native-engineering.md
+      - 85. AI/ML 엔지니어링 기본: 85-ai-ml-engineering.md
+      - 86. 검색, 추천, 벡터 데이터베이스: 86-search-recommendation-vector.md
+      - 87. 실시간 협업 시스템: 87-realtime-collaboration-systems.md
+      - 88. 개인정보, 규제, 데이터 거버넌스: 88-privacy-compliance-governance.md
+      - 89. 제품 분석과 실험 플랫폼: 89-product-analytics-experimentation.md
+      - 90. DDD와 모듈러 아키텍처: 90-ddd-modular-architecture.md
+      - 91. 공급망 보안과 릴리즈 엔지니어링: 91-supply-chain-release-engineering.md
   - 캡스톤 (LEVEL 10):
       - 46. 미니 증권 시스템: 46-capstone-project.md
       - 47. 마스터 체크리스트: 47-mastery-checklist.md
