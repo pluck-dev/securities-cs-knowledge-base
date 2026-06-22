@@ -15,7 +15,7 @@ LEVEL 5  동시성·비동기           (11,13,28~29)
 LEVEL 6  증권 도메인 완전정복     (04,30~36)
 LEVEL 7  시스템 설계 (초심화)     (08,12,15,37~41)
 LEVEL 8  운영·보안 (초심화)       (05,42~45)
-LEVEL 9  개발자 CS 종합          (58~105)  ← 백엔드/프론트/인프라/보안/SRE
+LEVEL 9  개발자 CS 종합          (58~120)  ← 백엔드/프론트/인프라/보안/SRE
 LEVEL 10 캡스톤: 통합 실전        (46~47)
 ```
 
@@ -166,6 +166,21 @@ LEVEL 10 캡스톤: 통합 실전        (46~47)
 | 103 | [문서화와 지식 관리](docs/103-documentation-knowledge-management.md) | ADR/runbook/onboarding/troubleshooting/postmortem |
 | 104 | [클린 코드와 유지보수성 심화](docs/104-clean-code-maintainability.md) | naming/error handling/refactoring/abstraction |
 | 105 | [Edge와 Serverless 아키텍처](docs/105-edge-serverless-architecture.md) | serverless/edge/cold start/stateless/cost |
+| 106 | [Kubernetes 운영 심화](docs/106-kubernetes-operations-deep.md) | control plane/workload/probe/resource/PDB |
+| 107 | [Service Mesh와 API Gateway](docs/107-service-mesh-api-gateway.md) | gateway/service mesh/mTLS/routing/policy |
+| 108 | [Identity, IAM, OAuth2/OIDC 심화](docs/108-identity-iam-oauth-oidc.md) | principal/OAuth2/OIDC/JWT/IAM |
+| 109 | [데이터베이스 샤딩과 파티셔닝](docs/109-database-sharding-partitioning.md) | partition/sharding/key/resharding/cross-shard |
+| 110 | [멀티테넌시와 SaaS 아키텍처](docs/110-multitenancy-saas-architecture.md) | tenant isolation/noisy neighbor/provisioning |
+| 111 | [워크플로 오케스트레이션과 스케줄러](docs/111-workflow-orchestration-schedulers.md) | batch/scheduler/retry/checkpoint/SLA |
+| 112 | [Protobuf, gRPC, Schema Registry](docs/112-protobuf-grpc-schema-registry.md) | protobuf/gRPC/schema compatibility/codegen |
+| 113 | [이벤트 모델링과 감사 원장](docs/113-event-modeling-audit-ledger.md) | command/event/audit log/ledger/correction |
+| 114 | [데이터 정합성, 대사, 보정](docs/114-data-consistency-reconciliation.md) | consistency/reconciliation/correction/read model |
+| 115 | [고급 캐싱, CDN, Edge 전략](docs/115-advanced-caching-cdn-edge.md) | HTTP cache/CDN/invalidation/stampede |
+| 116 | [고급 네트워킹과 로드밸런싱](docs/116-advanced-networking-loadbalancing.md) | L4/L7/LB/timeout/retry/network metrics |
+| 117 | [재해복구와 비즈니스 연속성](docs/117-disaster-recovery-business-continuity.md) | RTO/RPO/DR/failover/BCP |
+| 118 | [불변조건, 정형기법, 안전한 상태 설계](docs/118-formal-methods-invariants.md) | invariant/state machine/property test/model checking |
+| 119 | [개발자 도구, CLI, 자동화](docs/119-developer-tools-cli-automation.md) | CLI/dry-run/script/codegen/internal tools |
+| 120 | [종합 개발자 역량 맵과 자가 진단](docs/120-comprehensive-engineer-readiness-map.md) | role level/readiness map/self assessment |
 
 ## LEVEL 10 — 캡스톤: 통합 실전
 
