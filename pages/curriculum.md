@@ -15,7 +15,7 @@ LEVEL 5  동시성·비동기           (11,13,28~29)
 LEVEL 6  증권 도메인 완전정복     (04,30~36)
 LEVEL 7  시스템 설계 (초심화)     (08,12,15,37~41)
 LEVEL 8  운영·보안 (초심화)       (05,42~45)
-LEVEL 9  개발자 CS 종합          (58~67)  ← 백엔드/프론트/인프라/보안/SRE
+LEVEL 9  개발자 CS 종합          (58~77)  ← 백엔드/프론트/인프라/보안/SRE
 LEVEL 10 캡스톤: 통합 실전        (46~47)
 ```
 
@@ -128,6 +128,16 @@ LEVEL 10 캡스톤: 통합 실전        (46~47)
 | 65 | [DevOps와 SRE](docs/65-devops-sre.md) | SLO, 알림, 배포 전략, 장애 대응, 포스트모템 |
 | 66 | [보안 엔지니어링](docs/66-security-engineering.md) | 인증, 인가, 암호화, 웹/API/공급망 보안 |
 | 67 | [시스템 설계와 아키텍처](docs/67-architecture-design.md) | 품질 속성, 일관성, 확장, 장애 설계 |
+| 68 | [컴퓨터 구조와 운영체제 심화](docs/68-computer-architecture-os-deep.md) | CPU/메모리/커널/I/O/GC와 런타임 |
+| 69 | [알고리즘 문제 해결과 실무 적용](docs/69-algorithms-problem-solving.md) | 정렬/탐색/해시/그래프/DP 실무화 |
+| 70 | [API 계약과 시스템 연동](docs/70-api-contracts-integration.md) | 스키마/버전/오류/멱등성/Webhook |
+| 71 | [테스트와 품질 엔지니어링](docs/71-testing-quality-engineering.md) | 테스트 피라미드/E2E/성능·보안 테스트 |
+| 72 | [성능과 확장성 엔지니어링](docs/72-performance-scalability.md) | p95/p99/병목/캐시/수평 확장/부하 테스트 |
+| 73 | [고급 프론트엔드 플랫폼](docs/73-advanced-frontend-platform.md) | SSR/SSG/hydration/번들러/디자인 시스템 |
+| 74 | [메시징·큐·스트리밍](docs/74-messaging-streaming.md) | Kafka/RabbitMQ/SQS/outbox/saga/consumer 설계 |
+| 75 | [데이터 엔지니어링과 분석](docs/75-data-engineering-analytics.md) | OLTP/OLAP/이벤트/ETL·ELT/데이터 품질 |
+| 76 | [디버깅과 트러블슈팅](docs/76-debugging-troubleshooting.md) | 로그/메트릭/트레이스/장애 축소 방법론 |
+| 77 | [협업과 유지보수](docs/77-engineering-collaboration.md) | 요구사항/설계문서/Git/리뷰/리팩터링 |
 
 ## LEVEL 10 — 캡스톤: 통합 실전
 

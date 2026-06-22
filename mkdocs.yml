@@ -132,6 +132,16 @@ nav:
       - 65. DevOps와 SRE: 65-devops-sre.md
       - 66. 보안 엔지니어링: 66-security-engineering.md
       - 67. 시스템 설계와 아키텍처: 67-architecture-design.md
+      - 68. 컴퓨터 구조와 운영체제 심화: 68-computer-architecture-os-deep.md
+      - 69. 알고리즘 문제 해결과 실무 적용: 69-algorithms-problem-solving.md
+      - 70. API 계약과 시스템 연동: 70-api-contracts-integration.md
+      - 71. 테스트와 품질 엔지니어링: 71-testing-quality-engineering.md
+      - 72. 성능과 확장성 엔지니어링: 72-performance-scalability.md
+      - 73. 고급 프론트엔드 플랫폼: 73-advanced-frontend-platform.md
+      - 74. 메시징·큐·스트리밍: 74-messaging-streaming.md
+      - 75. 데이터 엔지니어링과 분석: 75-data-engineering-analytics.md
+      - 76. 디버깅과 트러블슈팅: 76-debugging-troubleshooting.md
+      - 77. 협업과 유지보수: 77-engineering-collaboration.md
   - 캡스톤 (LEVEL 10):
       - 46. 미니 증권 시스템: 46-capstone-project.md
       - 47. 마스터 체크리스트: 47-mastery-checklist.md
