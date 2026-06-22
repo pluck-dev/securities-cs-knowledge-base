@@ -1,0 +1,27 @@
+# Java/Kotlin build artifacts
+*.jar
+*.class
+
+# Dependencies
+node_modules/
+.venv/
+venv/
+
+# Build outputs
+.next/
+out/
+dist/
+build/
+site/
+
+# Local/runtime state
+.omx/
+.omc/
+.env
+.env.*
+!.env.example
+
+# OS/editor noise
+.DS_Store
+.idea/
+.vscode/

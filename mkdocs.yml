@@ -1,0 +1,137 @@
+site_name: 증권사 개발·CS 지식 베이스
+site_description: 투자자에서 증권사 백엔드 개발자(Kotlin)로 — 입문부터 초심화까지
+docs_dir: docs
+site_dir: site
+
+theme:
+  name: material
+  language: ko
+  features:
+    - navigation.instant
+    - navigation.tracking
+    - navigation.tabs
+    - navigation.tabs.sticky
+    - navigation.sections
+    - navigation.top
+    - navigation.indexes
+    - toc.follow
+    - search.suggest
+    - search.highlight
+    - search.share
+    - content.code.copy
+    - content.code.annotate
+  palette:
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/weather-night
+        name: 다크 모드로
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/weather-sunny
+        name: 라이트 모드로
+
+markdown_extensions:
+  - admonition
+  - attr_list
+  - md_in_html
+  - tables
+  - footnotes
+  - toc:
+      permalink: true
+      toc_depth: 3
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+  - pymdownx.inlinehilite
+  - pymdownx.superfences
+  - pymdownx.snippets:
+      base_path:
+        - .
+      check_paths: true
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.details
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+
+plugins:
+  - search:
+      lang:
+        - ko
+        - en
+
+nav:
+  - 홈: index.md
+  - 입문 (LEVEL 0~1):
+      - 01. 큰 그림: 01-overview.md
+      - 02. 코틀린 기초: 02-kotlin-basics.md
+      - 03. 스프링 부트 입문: 03-spring-boot.md
+      - 04. 증권 도메인 입문: 04-securities-domain.md
+      - 05. 실무 환경: 05-work-environment.md
+      - 06. 30일 로드맵: 06-roadmap.md
+      - 07. 실습 주문 처리기: 07-order-system-tutorial.md
+      - 08. 아키텍처 개요: 08-architecture.md
+      - 16. 개발 환경 구축: 16-dev-environment.md
+      - 17. JVM 동작 원리: 17-jvm-fundamentals.md
+  - 코틀린 (LEVEL 2):
+      - 18. 타입 시스템과 함수: 18-kotlin-types-and-functions.md
+      - 19. 객체지향과 설계: 19-kotlin-oop.md
+      - 20. 컬렉션과 함수형: 20-kotlin-collections.md
+      - 21. 제네릭과 관용구: 21-kotlin-generics-and-idioms.md
+  - 생태계 (LEVEL 3):
+      - 22. Gradle 빌드: 22-gradle-build.md
+      - 23. 테스트 완전정복: 23-testing.md
+      - 24. 자바 상호운용: 24-java-interop.md
+  - 스프링 (LEVEL 4):
+      - 25. 스프링 코어: 25-spring-core.md
+      - 26. 웹 계층 MVC/WebFlux: 26-spring-boot-web.md
+      - 27. 데이터 접근: 27-data-access.md
+      - 14. REST API 실습: 14-rest-api.md
+  - 동시성 (LEVEL 5):
+      - 11. 동시성과 잔고 정합성: 11-concurrency.md
+      - 28. JVM 동시성 깊게: 28-jvm-concurrency.md
+      - 13. 코루틴 입문: 13-coroutines.md
+      - 29. 코루틴 완전정복: 29-coroutines-deep.md
+  - 증권 도메인 (LEVEL 6):
+      - 30. 시장 구조와 매매제도: 30-market-structure.md
+      - 31. 주문 유형 전체: 31-order-types.md
+      - 32. 청산·결제·정산: 32-clearing-settlement.md
+      - 33. 계좌·원장·손익: 33-account-ledger.md
+      - 34. 신용·파생 기초: 34-credit-derivatives.md
+      - 35. 시세·시장 데이터: 35-market-data.md
+      - 36. 리스크·컴플라이언스: 36-risk-compliance.md
+  - 시스템 설계 (LEVEL 7):
+      - 10. 금액 계산 완전정복: 10-bigdecimal-deep.md
+      - 12. 호가창 자료구조: 12-orderbook.md
+      - 15. 이벤트 기반/Kafka: 15-event-driven.md
+      - 37. 저지연 시스템 설계: 37-low-latency.md
+      - 38. 이벤트 소싱과 CQRS: 38-event-sourcing-cqrs.md
+      - 39. 분산 시스템과 일관성: 39-distributed-systems.md
+      - 40. 캐시 전략과 Redis: 40-caching-redis.md
+      - 41. 고가용성과 장애복구: 41-high-availability.md
+  - 운영·보안 (LEVEL 8):
+      - 42. 관측성: 42-observability.md
+      - 43. 성능 튜닝: 43-performance-tuning.md
+      - 44. 보안: 44-security.md
+      - 45. CI/CD와 배포: 45-cicd-deploy.md
+  - 캡스톤 (LEVEL 9):
+      - 46. 미니 증권 시스템: 46-capstone-project.md
+      - 47. 마스터 체크리스트: 47-mastery-checklist.md
+  - 예제 코드: examples.md
+  - 용어집:
+      - 09. 용어집 완전판: 09-glossary.md
+      - 57. 가나다순 색인: 57-glossary-index.md
+      - 50. 백오피스·정산·대사: 50-glossary-backoffice.md
+      - 51. 파생상품 심화: 51-glossary-derivatives.md
+      - 52. 채권 심화: 52-glossary-bonds.md
+      - 53. 펀드·신탁·랩·구조화: 53-glossary-funds.md
+      - 54. 해외주식·외환: 54-glossary-global.md
+      - 55. 시세·체결시스템: 55-glossary-marketdata.md
+      - 56. 리스크·컴플라이언스·규제: 56-glossary-risk-compliance.md
